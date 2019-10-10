@@ -15,7 +15,6 @@ void draw()
   		yeet.show();
   	}
   }
-  System.out.println(sum);
 }
 
 void mousePressed()
