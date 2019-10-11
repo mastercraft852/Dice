@@ -1,7 +1,7 @@
 int sum;
 void setup()
 {
-  size(500,500);
+  size(500,600);
 	noLoop();
 }
 
@@ -15,6 +15,9 @@ void draw()
   		yeet.show();
   	}
   }
+  textAlign(CENTER,CENTER);
+  textSize(48);
+  text("Sum of all dice ="+sum, 250, 570);
 }
 
 void mousePressed()
