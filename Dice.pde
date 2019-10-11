@@ -1,4 +1,4 @@
-int sum;
+int sum = 0;
 void setup()
 {
   size(500,600);
